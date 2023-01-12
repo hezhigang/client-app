@@ -8,11 +8,11 @@ interface IDisplayBoard {
 function DisplayBoard({ numberOfBooks: numberOfBooks, getAllBooks: getAllBooks }: IDisplayBoard) {
 
     return (
-        <div className="display-board">
-            <div className="number">
-                {numberOfBooks}
+        <div>
+            <div>
+                There are {numberOfBooks} kis books:
             </div>
-            <div className="btn">
+            <div>
                 <button type="button" onClick={(e) => getAllBooks()} className="btn btn-warning">all kids books</button>
             </div>
         </div>

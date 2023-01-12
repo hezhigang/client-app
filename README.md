@@ -58,3 +58,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# ref
+
+- [How To Make API calls in React Applications — TypeScript Version](https://medium.com/bb-tutorials-and-thoughts/how-to-make-api-calls-in-react-applications-typescript-version-1800fc756966)
+- [Example Project on how to make API calls in React Application written in typescript](https://github.com/bbachi/react-api-calls-example)
