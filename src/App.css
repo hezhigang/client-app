@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -37,10 +44,28 @@
   }
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
 .bookCover {
   margin: 10px 20px;
-  border: 4px solid #fff;
   border-radius: 10%;
   width: 200px;
   height: auto;
+}
+
+.bookTitle {
+  font-weight: 700;
+}
+
+.bookAuthor {
+  font-style: italic;
+}
+
+.sku {
+  color: #f00;
 }
