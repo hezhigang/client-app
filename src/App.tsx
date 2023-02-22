@@ -31,7 +31,11 @@ function App() {
           </div>
         } />
         <Route path="/books/:id" element={
-          <BookDetail />
+          <div className="App">
+            <div>
+              <BookDetail />
+            </div>
+          </div>
         } />
       </Routes>
     </Router>

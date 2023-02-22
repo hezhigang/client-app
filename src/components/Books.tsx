@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export const Books = ({ books: books }: any) => {
 
-    // console.log('length:::', books.length)
     if (books.length === 0) return null
 
     const BookInfo = (book: any, index: number) => {

@@ -8,21 +8,21 @@ export const BookDetail = () => {
     let param = useParams();
     const appService = new AppService();
     const [book, setBook] = useState<any>([]);
-  
+
     const getSelectedBook = async (id: any) => {
-      const book = await appService.getSpecficBook(id);
-      setBook(book);
+        const book = await appService.getSpecficBook(id);
+        setBook(book);
     }
 
     useEffect(() => {
         getSelectedBook(param.id);
-      }, []);
+    }, []);
 
     return (
         <div key='selectedBook' className='card'>
             <div><Link to={'/'}>Back to list</Link></div>
-            <br/>
-            <img className="bookCover" src={"../"+book.thumbnail} alt="Cover of book" />
+            <br />
+            <img className="bookCover" src={"../" + book.thumbnail} alt="Cover of book" />
             <div>
                 <span className='bookTitle'>{book.title}</span><br />
                 <span className='bookAuthor'>{book.author}</span><br />
