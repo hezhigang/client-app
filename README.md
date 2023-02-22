@@ -12,6 +12,14 @@ cd client-app
 
 npm start
 
+# react-router
+
+```
+npm install react-router-dom @types/react-router-dom
+```
+
+This will install the React Router package and its corresponding TypeScript types.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
