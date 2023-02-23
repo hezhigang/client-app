@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import { AppService } from './services/app.service';
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Routes } from "react-router";
 import { Books } from './components/Books';
 import { BookDetail } from './components/BookDetail';
 
