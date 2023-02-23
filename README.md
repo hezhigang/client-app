@@ -20,6 +20,21 @@ npm install react-router-dom @types/react-router-dom
 
 This will install the React Router package and its corresponding TypeScript types.
 
+## about trouble-shooting
+
+```
+sudo rm -rf node_modules
+sudo rm -f package-lock.json
+
+npm cache clean --force
+
+npm install
+
+npm install react-router-dom@latest
+
+npm install --save @types/react-router-dom
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
