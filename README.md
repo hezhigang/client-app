@@ -35,6 +35,34 @@ npm install react-router-dom@latest
 npm install --save @types/react-router-dom
 ```
 
+# Sass
+
+```
+npm install sass@latest
+```
+
+## trouble shooting
+
+### problem
+
+after install sass and change .css to .scss,
+
+npm start show error:
+
+to import sass files you first need to install node-sass
+
+### my solution
+
+edit package.json
+
+```json
+"react-scripts": "^5.0.1",
+```
+
+```
+npm update react-scripts
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
