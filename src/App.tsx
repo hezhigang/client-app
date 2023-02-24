@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { AppService } from './services/app.service';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
