@@ -12,13 +12,13 @@ export const Books = ({ books: books }: any) => {
                 <img className="bookCover" src={book.thumbnail} alt="Cover of book" />
                 <div>
                     <span>{index + 1}. </span>
-                    <span className='bookTitle'><Link to={`/books/${book.id}`}>{book.title}</Link></span><br />
+                    <span className='bookTitle'>{book.title}</span><br />
                     <span className='bookAuthor'>{book.author}</span><br />
                     <span className='sku'>{book.sku}</span>
                     <p>{book.description}</p>
                 </div>
                 <div>
-                    <span><a href="#">Show details</a></span> &nbsp; &nbsp;
+                    <span><Link to={`/books/${book.id}`}>Show details</Link></span> &nbsp; &nbsp;
                     <span><button onClick={() => alert('test')}>Purchase - CAD ${book.price}</button></span>
                 </div>
             </div>
