@@ -26,11 +26,12 @@ export const BookDetail = () => {
             <div>
                 <span className='bookTitle'>{book.title}</span><br />
                 <span className='bookAuthor'>{book.author}</span><br />
+                <span>CAD ${book.price}</span><br />
                 <span className='sku'>{book.sku}</span>
                 <p>{book.description}</p>
             </div>
             <div>
-                <span><button onClick={() => alert('test')}>Purchase - CAD ${book.price}</button></span>
+                <span><button onClick={() => alert('test')}>Add to cart</button></span>
             </div>
         </div>
     )

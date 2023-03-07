@@ -114,3 +114,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 - [How To Make API calls in React Applications — TypeScript Version](https://medium.com/bb-tutorials-and-thoughts/how-to-make-api-calls-in-react-applications-typescript-version-1800fc756966)
 - [Example Project on how to make API calls in React Application written in typescript](https://github.com/bbachi/react-api-calls-example)
+- [Shopping Cart](https://github.com/irvingvjuarez/yard-sale)
+- [Build a Shopping Cart using React and TypeScript](https://irvingvjuarez.medium.com/build-a-shopping-cart-using-react-and-typescript-58d57170b4eb)
